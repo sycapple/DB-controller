@@ -1,0 +1,7 @@
+HOSTNAME = '49.234.7.65'
+PORT = '3306'
+DATABASE = 'MedicalDB'
+USERNAME = 'root'
+PASSWORD = 'Syc631017'
+DB_URL = 'mysql+pymysql://{}:{}@{}:{}/{}?charset=utf8'.format(USERNAME, PASSWORD, HOSTNAME, PORT, DATABASE)
+SQLALCHEMY_DATABASE_URI = DB_URL
